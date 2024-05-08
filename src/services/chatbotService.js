@@ -3,7 +3,7 @@ import request from 'request'
 
 const PAGE_ACCESS_TOKEN = process.env.PAGE_ACCESS_TOKEN
 const DOMAIN = process.env.DOMAIN
-const IMAGE_GET_STARTED = '../public/images/background.jpg'
+const IMAGE_GET_STARTED = '/images/background.jpg'
 const IMAGE_GET_BOOKING =
     'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnptOTNybnJ0bTJ3bzE4NTR3ZHljaXVwZ2hqcXFidzZlamZ1b2cxMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mWrFWSdUpwlMvbC59G/giphy.gif'
 const IMAGE_CHANGE_BOOKING =

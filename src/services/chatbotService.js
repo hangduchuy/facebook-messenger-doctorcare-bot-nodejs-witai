@@ -384,7 +384,7 @@ let handleSendChangeScheduleRes = (sender_psid) => {
 
 let getChangeScheduleResTemplate = () => {
     let response = {
-        text: 'Nếu bạn muốn thay đổi lịch khám, vui lòng đặt lại lịch khám trên website: ${DOMAIN}'
+        text: `Nếu bạn muốn thay đổi lịch khám, vui lòng đặt lại lịch khám trên website: ${DOMAIN}`
     }
     return response
 }
